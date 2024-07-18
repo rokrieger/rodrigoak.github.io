@@ -6,16 +6,22 @@
         <title>Página em Construção</title>
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     </head>
 
-    <body>
+    <body class="light-mode">
+        <div class="mode-container">
+            <button class="mode-toggle" onclick="toggleMode()">
+                <i class="fas fa-moon"></i> <!-- Ícone da lua -->
+            </button>
+        </div>
         <div class="container">
-            <h1>OPS! 😢</h1>
+            <h1><i class="fa-solid fa-skull"></i> OPS!</h1>
             <p>Esta página ainda está em construção.</p>
         </div>
-        
         <div class="footer">
-            Todos os direitos reservados &copy; 2024. Feito com <span style="color: red;">&#10084;</span> por <a href="https://discordapp.com/users/249487340383240192">Rodrigo Krieger</a>
+            Todos os direitos reservados &copy; 2024. Feito com <span style="color: red;"><i class="fa-solid fa-heart"></i></span> por <a href="https://discordapp.com/users/249487340383240192">Rodrigo Krieger</a>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
