@@ -1,0 +1,77 @@
+/* Estilo para o corpo */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+/* Estilo para o contêiner */
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o título */
+h1 {
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #ff5353;
+}
+
+/* Estilo para o parágrafo */
+p {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #666;
+}
+
+/* Estilo para o footer flutuante */
+.footer {
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 0.9em;
+    color: #333;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer a {
+    color: #ff5353;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .footer {
+        font-size: 0.8em;
+        padding: 5px;
+    }
+}
